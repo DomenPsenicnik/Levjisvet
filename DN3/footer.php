@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>Domača Naloga 3</title>
+<link rel="icon" href="lion.ico">
+<link rel="stylesheet" href="index.css">
+<!-- Lahko dodaš Bootstrap tukaj, če uporabljaš razrede kot "container-fluid" in "bg-primary" -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<?php
+
+echo  '    
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">Levi (Panthera leo) so mogočne mačke, znane kot "kralji živali" in edine velike mačke, ki živijo v skupinah – krdelih, ki jih običajno sestavlja od tri do dvanajst odraslih osebkov. Samci, ki tehtajo od 150 do 250 kg, so prepoznavni po svoji veličastni grivi, katere velikost in barva kažeta na njihovo moč in zdravje. Samice, lažje in bolj agilne, so glavni lovci v krdelu in sodelujejo pri skupinskem lovu, kjer plenijo predvsem antilope, zebre in bivole. Levi lahko dosežejo hitrost do 80 km/h, vendar le na kratkih razdaljah, večino dneva pa preživijo v počitku, saj spijo tudi do 20 ur na dan. Njihov naravni habitat so afriške savane, le majhna populacija azijskih levov še živi v indijskem Girdskem gozdu. V različnih kulturah so levi simbol moči in poguma – v starem Egiptu so jih povezovali z boginjo Sekhmet, v Evropi krasijo številne grbe in zastave, v Indiji pa je levji steber cesarja Ašoke nacionalni simbol.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>ŽIVALSKI VRTI</h6>
+        <ul class="footer-links">
+          <li><a href="https://www.zoo.si">ZOO LJUBLJANA</a></li>
+          <li><a href="https://zoo.hr">ZOO ZAGREB</a></li>
+          <li><a href="https://www.zoovienna.at/en/">ZOO DUNAJ</a></li>
+          <li><a href="https://bronxzoo.com">BRONX ZOO</a></li>
+          <li><a href="https://australiazoo.com.au">AUSTRALIOA ZOO</a></li>
+         
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>MENU</h6>
+        <ul class="footer-links">
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="o-meni.php">O MENI</a></li>
+            <li><a href="opravila.php">OPRAVILA</a></li>
+            <li><a href="kontakt.php">KONTAKT</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by
+          <a href="#">Domen Pšeničnik</a>.
+        </p>
+        <br>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+   
+      </div>
+    </div>
+  </div>
+</footer> '
+
+?>
+
+</body>
+</html>
